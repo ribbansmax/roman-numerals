@@ -20,9 +20,7 @@ class RomanNumerals
       roman
     else
       mod_remainder = n.divmod(@@conversion[i][0])
-      mod_remainder[0].times do |j|
-        roman << @@conversion[i][1]
-      end
+      mod_remainder[0].times { roman << @@conversion[i][1] }
       to_roman(mod_remainder[1], roman, i+1)
     end
   end
