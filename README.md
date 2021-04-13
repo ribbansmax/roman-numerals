@@ -21,21 +21,10 @@ IX=9
 V=5
 IV=4
 I=1
-JS Starter Code
-function toRoman(num) {
-  // your code goes here
-}
 
-console.log(toRoman(128));  // should return "CXXVIII"
-console.log(toRoman(2000)); // should return "MM"
-console.log(toRoman(2017)); // should return "MMXVII"
-console.log(toRoman(1999)); // should return "MCMXCIX"
-Ruby Starter Code
-def to_roman(num)
-  # your code goes here
-end
-
+```
 puts to_roman(128)   # should return "CXXVIII"
 puts to_roman(2000)  # should return "MM"
 puts to_roman(2017)  # should return "MMXVII"
 puts to_roman(1999)  # should return "MCMXCIX"
+```
